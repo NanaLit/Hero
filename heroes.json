@@ -13,12 +13,6 @@
       "element": "wind"
     },
     {
-      "id": "0a3d066e-ca44-471e-98c3-28439ea7a50b",
-      "name": "Андрей",
-      "description": "бесить всех",
-      "element": "earth"
-    },
-    {
       "id": "f0a7ebc2-7fe1-4bec-b677-90aa4781b728",
       "name": "Инна",
       "description": "заступаться за Никиту",
@@ -29,24 +23,6 @@
       "name": "Слава",
       "description": "писать на пыхе",
       "element": "water"
-    },
-    {
-      "id": "b6377f78-cdbe-4a17-a770-a0364c7356e9",
-      "name": "Загадочный герой",
-      "description": "Умеет все",
-      "element": ""
-    },
-    {
-      "id": "db8334a0-8a53-4f94-a20b-43ae32f059b5",
-      "name": "NanaLit",
-      "description": "asdadsad",
-      "element": "water"
-    },
-    {
-      "id": "4e76b724-0172-46b3-8316-2ba0124523ed",
-      "name": "Катя",
-      "description": "обедать с программистами",
-      "element": "wind"
     }
   ],
   "filters": [

@@ -3,7 +3,7 @@ import { useHttp } from "../../hooks/http.hook";
 import { useState } from "react";
 import { v4 as uuidv4 } from 'uuid';
 import { useDispatch, useSelector } from 'react-redux';
-import { heroCreated } from '../../actions';
+import { heroCreated } from '../heroesList/heroesSlice';
 
 const HeroesAddForm = () => {
 
@@ -12,7 +12,7 @@ const HeroesAddForm = () => {
     const [heroElement, setHeroElement] = useState('');
 
     const dispatch = useDispatch();
-    const {filters, filtersLoadingStatus} = useSelector(state => state);
+    const {filters, filtersLoadingStatus} = useSelector(state => state.filters);
     const {request} = useHttp();
 
     const createHero = (e)=> {
